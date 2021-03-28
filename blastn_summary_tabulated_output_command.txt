@@ -1,0 +1,4 @@
+blastn -query input.fa -db database.fa -out output.csv -outfmt 10
+
+Note -outfmt option is for formatting of the output file into a tabulated form. 6/7/10 all give various forms of tabulated outout.
+See blastn -help for more options
